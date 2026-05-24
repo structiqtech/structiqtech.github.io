@@ -96,15 +96,17 @@
   box-shadow:0 10px 24px rgba(91,110,240,.24);
 }
 
-    .response-time {
-      display: inline-block;
-      padding: 6px 12px;
-      background: rgba(102, 126, 234, .1);
-      border: 1px solid rgba(102, 126, 234, .3);
-      border-radius: 6px;
-      font-size: 13px;
-      margin-top: 12px
-    }
+   .response-time{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:6px 12px;
+  background:rgba(102,126,234,.10);
+  border:1px solid rgba(102,126,234,.25);
+  border-radius:999px;
+  font-size:12px;
+  color:var(--text);
+}
   </style>
 </head>
 
@@ -132,7 +134,11 @@
       <h2>Schedule a consultation with StructIQTech.</h2>
       <p class="sub">Tell us about your data, software, cloud, AI, cybersecurity, or quality engineering initiative.
         We’ll help identify the best path forward.</p>
-      <span class="response-time">✓ Typical response within 24 hours</span>
+<div style="margin-top:14px">
+  <span class="response-time">
+    ✓ Typical response within 24 hours
+  </span>
+</div>
     </section>
 
     <div class="contact-grid">
